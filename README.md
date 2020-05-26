@@ -1,5 +1,4 @@
-<img src = "https://github.com/zero-bugger/Reactive_Forms_Angular/blob/master/html.PNG" >
-<img src="https://github.com/zero-bugger/Reactive_Forms_Angular/blob/master/error.PNG">
+
 
 # ReactiveForms
 
