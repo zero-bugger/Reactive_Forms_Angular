@@ -1,3 +1,6 @@
+<img src = "https://github.com/zero-bugger/Reactive_Forms_Angular/blob/master/html.PNG" >
+<img src="https://github.com/zero-bugger/Reactive_Forms_Angular/blob/master/error.PNG">
+
 # ReactiveForms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
@@ -26,4 +29,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-<img src="https://github.com/zero-bugger/Reactive_Forms_Angular/blob/master/error.PNG">
