@@ -17,7 +17,7 @@ export class ValidationService {
         'invalidCity':'Invalid City',
         'invalidzipcode':'Invalid Zipcode',
         'minlength': `Minimum length ${validatorValue.requiredLength}`
-      };
+      }; 
   
       return config[validatorName];
     }
@@ -50,7 +50,7 @@ export class ValidationService {
   }
 
   static cityValidator(control){
-    if(control.value.match(/^[A-Za-z]{4}$/)){
+    if(control.value.match(/[A-Za-z]{4}/)){
       return null
     }
     else{

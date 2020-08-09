@@ -5,11 +5,14 @@ import { AppComponent } from './app.component';
 import { ErrorMessageComponent } from './error-message/error-message.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { HttpconnectService } from './httpconnect.service';
+import { SignupFormComponent } from './signup-form/signup-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ErrorMessageComponent
+    ErrorMessageComponent,
+    SignupFormComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
     ReactiveFormsModule   
   
   ],
-  providers: [],
+  providers: [HttpconnectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

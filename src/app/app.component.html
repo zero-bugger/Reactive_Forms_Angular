@@ -1,12 +1,9 @@
 
     <div class="container" >
-
-     
-
-      
         <div class="row">
           <div class="col-lg-6" >
-              <h1 style="text-align: center; color: rgb(191, 142, 236); font-family:Arial, Helvetica, sans-serif; margin-top: 20px; margin-right: 0;">Contact Our</h1>
+              <h1 style="text-align: center; color: rgb(191, 142, 236); font-family:Arial, 
+              Helvetica, sans-serif; margin-top: 20px; margin-right: 0;">Contact Our</h1>
               <h3 style="text-align: center;font-family:Arial, Helvetica, sans-serif;">Customer Support Center</h3>
           </div>
           <div class="col-lg-3">
@@ -53,7 +50,7 @@
                 <br>
 
                 <label><strong> Phone <font color="red">*</font></strong></label>
-                <input type="email" 
+                <input type="number" 
                 class="form-control"
                 name="phone" 
                 formControlName="phone"
@@ -122,6 +119,7 @@
                   <button 
                    class="btn btn-primary btn-md btn-block" 
                    type="submit"
+                   [disabled]="customerform.invalid"
                   >Submit </button>
               
                <br>
